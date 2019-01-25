@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo Front End</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+<div id="title">THIS IS A ZOO</div>
+<br>
+<select id="animalSelector">
+    <option value="0">Pick Animal Here</option>
+    <option value="1">Tiger</option>
+    <option value="2">Giraffe</option>
+    <option value="3">Unicorn</option>
+    <option value="4">Bee</option>
+    <option value="5">Bear</option>
+</select>
+<br>
+<br>
+<input type="text" placeholder="Name your animal!" id="animalName">
+<br>
+<br>
+<button class="w3-btn w3-blue" id="create">Create Animal</button>
+<br>
+<div>Feed your animals</div>
+
+<select id="food">
+    <option value="meat">Meat</option>
+    <option value="leaves">Leaves</option>
+    <option value="marshmallows">Marshmallows</option>
+    <option value="pollen">Pollen</option>
+    <option value="fish">Fish</option>
+
+</select>
+
+<button class="w3-btn w3-green"  id="feed">Feed</button>
+<br>
+<div>Click an animal to send it to the slaughterhouse</div>
+<br>
+<div id="population">Population:</div>
+
+<table id="table">
+    <tr>
+        <td> NAME: </td>
+        <td> SPECIES : </td>
+    </tr>
+
+</table>
+<br>
+<div id="log">LOG</div>
+<div id="actions"></div>
+
+
+</body>
+</html>
